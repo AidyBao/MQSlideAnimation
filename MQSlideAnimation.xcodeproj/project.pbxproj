@@ -12,6 +12,11 @@
 		7ABDF9B4212662EB00143F02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDF9B2212662EB00143F02 /* Main.storyboard */; };
 		7ABDF9B6212662ED00143F02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDF9B5212662ED00143F02 /* Assets.xcassets */; };
 		7ABDF9B9212662ED00143F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDF9B7212662ED00143F02 /* LaunchScreen.storyboard */; };
+		7ABDF9C2212662FE00143F02 /* ZXHSlideInAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF9C0212662FE00143F02 /* ZXHSlideInAnimationController.swift */; };
+		7ABDF9C3212662FE00143F02 /* ZXHSlideOutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF9C1212662FE00143F02 /* ZXHSlideOutAnimationController.swift */; };
+		7ABDF9C62126639100143F02 /* MQSlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF9C42126639100143F02 /* MQSlideViewController.swift */; };
+		7ABDF9C72126639100143F02 /* MQSlideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDF9C52126639100143F02 /* MQSlideViewController.xib */; };
+		7ABDF9C92126647500143F02 /* ZXDimmingPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ABDF9C82126647500143F02 /* ZXDimmingPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		7ABDF9B5212662ED00143F02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ABDF9B8212662ED00143F02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ABDF9BA212662ED00143F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABDF9C0212662FE00143F02 /* ZXHSlideInAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXHSlideInAnimationController.swift; sourceTree = "<group>"; };
+		7ABDF9C1212662FE00143F02 /* ZXHSlideOutAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXHSlideOutAnimationController.swift; sourceTree = "<group>"; };
+		7ABDF9C42126639100143F02 /* MQSlideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQSlideViewController.swift; sourceTree = "<group>"; };
+		7ABDF9C52126639100143F02 /* MQSlideViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQSlideViewController.xib; sourceTree = "<group>"; };
+		7ABDF9C82126647500143F02 /* ZXDimmingPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXDimmingPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				7ABDF9AE212662EB00143F02 /* AppDelegate.swift */,
 				7ABDF9B0212662EB00143F02 /* ViewController.swift */,
+				7ABDF9C42126639100143F02 /* MQSlideViewController.swift */,
+				7ABDF9C52126639100143F02 /* MQSlideViewController.xib */,
+				7ABDF9C0212662FE00143F02 /* ZXHSlideInAnimationController.swift */,
+				7ABDF9C1212662FE00143F02 /* ZXHSlideOutAnimationController.swift */,
+				7ABDF9C82126647500143F02 /* ZXDimmingPresentationController.swift */,
 				7ABDF9B2212662EB00143F02 /* Main.storyboard */,
 				7ABDF9B5212662ED00143F02 /* Assets.xcassets */,
 				7ABDF9B7212662ED00143F02 /* LaunchScreen.storyboard */,
@@ -122,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABDF9C72126639100143F02 /* MQSlideViewController.xib in Resources */,
 				7ABDF9B9212662ED00143F02 /* LaunchScreen.storyboard in Resources */,
 				7ABDF9B6212662ED00143F02 /* Assets.xcassets in Resources */,
 				7ABDF9B4212662EB00143F02 /* Main.storyboard in Resources */,
@@ -135,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ABDF9C2212662FE00143F02 /* ZXHSlideInAnimationController.swift in Sources */,
 				7ABDF9B1212662EB00143F02 /* ViewController.swift in Sources */,
+				7ABDF9C3212662FE00143F02 /* ZXHSlideOutAnimationController.swift in Sources */,
+				7ABDF9C92126647500143F02 /* ZXDimmingPresentationController.swift in Sources */,
 				7ABDF9AF212662EB00143F02 /* AppDelegate.swift in Sources */,
+				7ABDF9C62126639100143F02 /* MQSlideViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
